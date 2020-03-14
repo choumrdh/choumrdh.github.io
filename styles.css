@@ -1,0 +1,10 @@
+body{
+    background-color: lightpink;
+}
+.picture-caption{
+    position: absolute;
+    bottom: 10px;
+    left: 26%;
+    right:26%;
+    background-color: lightskyblue;
+}
