@@ -4,7 +4,7 @@ body{
 .picture-caption{
     position: absolute;
     bottom: 10px;
-    left: 26%;
-    right:26%;
+    left: 25%;
+    right:25%;
     background-color: lightskyblue;
 }
