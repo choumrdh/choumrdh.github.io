@@ -1,16 +1,16 @@
 body{
-    background-image: url("https://i.pinimg.com/originals/3d/b3/5e/3db35e910f2d40e0ad84ae49eba7b81b.jpg");
+    background-image: url("https://ak6.picdn.net/shutterstock/videos/1017548536/thumb/1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 header {
-    font-family: 'Lobster', cursive;
-    color: antiquewhite; 
+    font-family: 'Titillium Web', sans-serif;
+    color: black; 
     height: 200px;
     padding-top: 30px;
 }
 .display-4{
-    color: wheat;
+    color: black;
 }
 .display-4:hover{
     color: purple;
@@ -31,4 +31,11 @@ header {
 .card{
     margin-bottom: 40px;
     padding-bottom: 40px;
+}
+.card-header{
+    background-color: slategray;
+}
+
+footer{
+    background-color: slategray;
 }

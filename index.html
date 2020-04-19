@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <title>Michelle's Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <title>Michelle's Portfolio</title>
 </head>
 
 <body style="height: 100%;">
@@ -19,8 +19,10 @@
             <div class="social-icon">
                 <a href="https://www.linkedin.com/in/michelle-chou-ba1b2a52/" target="_blank"><img
                         src="./Images/logo-linkedin.svg" alt="linkedin Profile" style="height: 40px; width: 40px;"></a>
-                <a href="https://github.com/choumrdh"><img src="./Images/logo-github.svg" alt="Github Page"
+                <a href="https://github.com/choumrdh" target="_blank"><img src="./Images/logo-github.svg" alt="Github Page"
                         target="_blank" style="height: 40px; width: 40px;"></a>
+                <a href="https://docs.google.com/document/d/1oeSVoxLAOkS4QX3trF5qdleRc9NtzxeJyyE43zyas38/edit" target="_blank"><img src="./Images/reader.svg" alt="Resume"
+                            target="_blank" style="height: 40px; width: 40px;"></a>
             </div>
         </div>
     </header>
@@ -32,7 +34,7 @@
                 <a class="nav-link " href="index.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="portfolio.html">Portfolio</a></li>
+                <a class="nav-link " href="portfolio.html">Projects</a></li>
             <li class="nav-item">
                 <a class="nav-link " data-toggle="modal" href="#contactMe">Contact</a>
             </li>
@@ -44,7 +46,7 @@
         <div class="card">
             <div class="row">
                 <div class="col">
-                    <div class="card-header bg-info text-white">
+                    <div class="card-header text-white">
                         <h3>About Me</h3>
                     </div>
 
@@ -52,12 +54,11 @@
                 <div class="card-body col">
                     <p class="card-text">
                         <img src="./Images/Michelle_profile.jpg" class="float-left col-12 col-md-3" alt="Me" />
-                        My name is Michelle. I was born and raised in Taiwan and have been here since 2005. I have two
-                        cats, my fur-babies, Mickey and Chubby. I like watcing tv, reading, and karoake. Rio Salado was
-                        where I graduated from and got my dental hygiene degree. I am currently a dental hygienist and a
-                        web development student. I'm interested in working as a web developer because I would like a job
+                        My name is Michelle. I was born and raised in Taiwan and relocated to the US since 2005. I have two
+                        cats, Mickey and Chubby. I like watcing tv, reading, and karoake. I recieved my dental hygiene degree from Rio Salado in 2012. I am currently a dental hygienist and aspiring full stack
+                        web developer. I'm interested in working as a web developer because I would like a job
                         that provides more fulfillment and allows me to express my critical thinking abilities. I also,
-                        want the flexibility of working anywhere at any time and move away from the 9-5 job.
+                        want the flexibility of working anywhere at any time.
                     </p>
 
                 </div>
@@ -67,13 +68,12 @@
 
     </div>
 
-    <!-- Modal -->
     <div class="modal fade" id="contactMe" tabindex="-1" role="dialog" aria-labelledby="contactMeModal"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info">
-                    <div class="card-header">
+                <div class="modal-header card-header">
+                    <div>
                         <h3 class="text-white">Contact</h3>
                     </div>
 
@@ -84,11 +84,11 @@
                 <div class="modal-body">
                     <div class="card-body">
                         <div class="form-group ">
-                            <label for="exmapleInputName">Name</label>
+                            <label for="contactNameInput">Name</label>
                             <input type="name" id="contactNameInput" class="form-control" placeholder="James Bond">
                         </div>
                         <div class="form-group">
-                            <label for="exmapleInputEmail">Email</label>
+                            <label for="contactEmailInput">Email</label>
                             <input type="email" id="contactEmailInput" class="form-control"
                                 placeholder="example@gmail.com">
                         </div>
@@ -106,7 +106,7 @@
         </div>
     </div>
 
-    <footer class="footer fixed-bottom mt-auto py-3 text-center bg-dark">
+    <footer class="footer fixed-bottom mt-auto py-3 text-center">
         <div class="container">
             <span class="text-white">©Copyright. Mich.Chou</span>
         </div>
