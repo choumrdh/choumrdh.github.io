@@ -6,23 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Michelle's Portfolio</title>
 </head>
 
-<body>
-    <nav class="navbar flex-column flex-md-row">
-        <div class="bg-info col-12 col-md-auto text-center">
-            <a class="navbar-brand bg-info" href="index.html">Michelle Chou</a>
+<body style="height: 100%;">
+    <header class="flex-column flex-md-row text-center">
+        <h1><a class="display-4" href="index.html">Michelle Chou</a></h1>
+        <h3>Full-Stack Web Developer</h3>
+        <div class="container">
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/michelle-chou-ba1b2a52/" target="_blank"><img
+                        src="./Images/logo-linkedin.svg" alt="linkedin Profile" style="height: 40px; width: 40px;"></a>
+                <a href="https://github.com/choumrdh"><img src="./Images/logo-github.svg" alt="Github Page"
+                        target="_blank" style="height: 40px; width: 40px;"></a>
+            </div>
         </div>
-        <ul class="nav">
+    </header>
+    <nav class="navbar flex-column ">
+        <div class="col-12 col-md-auto">
+        </div>
+        <ul class="nav ">
             <li class="nav-item">
-                <a class="nav-link text-black-50" href="index.html">About</a>
+                <a class="nav-link " href="index.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-black-50" href="portfolio.html">Portfolio</a></li>
+                <a class="nav-link " href="portfolio.html">Portfolio</a></li>
             <li class="nav-item">
-                <a class="nav-link text-black-50" href="contact.html">Contact</a>
+                <a class="nav-link " data-toggle="modal" href="#contactMe">Contact</a>
             </li>
         </ul>
     </nav>
@@ -64,12 +76,49 @@
             </div>
         </div>
     </div>
+<!-- Modal -->
+<div class="modal fade" id="contactMe" tabindex="-1" role="dialog" aria-labelledby="contactMeModal"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header bg-info">
+            <div class="card-header">
+                <h3 class="text-white">Contact</h3>
+            </div>
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="card-body">
+                <div class="form-group ">
+                    <label for="exmapleInputName">Name</label>
+                    <input type="name" id="contactNameInput" class="form-control" placeholder="James Bond">
+                </div>
+                <div class="form-group">
+                    <label for="exmapleInputEmail">Email</label>
+                    <input type="email" id="contactEmailInput" class="form-control"
+                        placeholder="example@gmail.com">
+                </div>
+                <div class="form-group input-group-lg">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="contactFormMessage" rows="7"></textarea>
+                </div>
+                <div>
+                    <a href="#" id="contactSubmit" class="btn btn-info">Submit</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
 
-
-    <footer class="footer fixed-bottom mt-auto py-3 text-center bg-info">
+    <footer class="footer fixed-bottom mt-auto py-3 text-center bg-dark">
         <div class="container">
-            <span class="text-white">© Copyright</span>
+            <span class="text-white">©Copyright. Mich. Ch</span>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

@@ -1,5 +1,19 @@
 body{
-    background-color: lightpink;
+    background-image: url("https://i.pinimg.com/originals/3d/b3/5e/3db35e910f2d40e0ad84ae49eba7b81b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    font-family: 'Lobster', cursive;
+    color: antiquewhite; 
+    height: 200px;
+    padding-top: 30px;
+}
+.display-4{
+    color: wheat;
+}
+.display-4:hover{
+    color: purple;
 }
 .picture-caption{
     position: absolute;
@@ -7,4 +21,14 @@ body{
     left: 25%;
     right:25%;
     background-color: lightskyblue;
+}
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+    
+}
+.card{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
