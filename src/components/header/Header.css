@@ -1,0 +1,14 @@
+header {
+  background-color: rgb(132, 149, 167);
+  font-family: fantasy;
+  height: 200px;
+  padding-top: 30px;
+  color:white
+}
+
+
+.social-icon a > span {
+  font-size: 3em;
+  padding: 10px;
+  color: black;
+}
