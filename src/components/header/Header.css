@@ -1,4 +1,9 @@
 header {
+  background-image: url("https://www.tmf-group.com/-/media/images/corporate-site/background-images/country-specific/taiwan/1500x900-taiwan-city-skyline-at-sunset.jpg");
+  background-size: cover;
+  opacity: 0.85;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: rgb(132, 149, 167);
   font-family: fantasy;
   height: 200px;
@@ -10,5 +15,5 @@ header {
 .social-icon a > span {
   font-size: 3em;
   padding: 10px;
-  color: black;
+  color: white;
 }
