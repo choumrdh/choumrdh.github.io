@@ -20,7 +20,7 @@ function About() {
                 alt="Me"
               />
               My name is Michelle. I am currently a dental hygienist and a
-               Full-stack web developer. I excel at working in
+               full stack web developer. I excel at working in
               fast-paced and cross functional team environments. I am able to
               work and collaborate efficiently well with others in overcoming
               obstacles and constructive feedback. My interest as a web

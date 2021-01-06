@@ -1,19 +1,19 @@
 header {
-  background-image: url("https://www.tmf-group.com/-/media/images/corporate-site/background-images/country-specific/taiwan/1500x900-taiwan-city-skyline-at-sunset.jpg");
+  /* background-image: url("https://www.tmf-group.com/-/media/images/corporate-site/background-images/country-specific/taiwan/1500x900-taiwan-city-skyline-at-sunset.jpg");
   background-size: cover;
-  opacity: 0.85;
+  opacity: 0.55;
   background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgb(132, 149, 167);
+  background-position: center; */
+  background-color:#8895b3;
   font-family: fantasy;
   height: 200px;
   padding-top: 30px;
   color:white
 }
 
-
 .social-icon a > span {
   font-size: 3em;
   padding: 10px;
   color: white;
+  opacity: 1;
 }

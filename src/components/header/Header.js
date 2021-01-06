@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <div className="container">
-        <header className="flex-column flex-md-row text-center ">
+        <header className="flex-column flex-md-row text-center">
           <h1 className="display-4">Michelle Chou</h1>
           <h3>Full-Stack Web Developer</h3>
           <div className="container">
