@@ -8,29 +8,36 @@ class Projects extends Component {
   };
   render() {
     return (
-      <div className="container-sm ">
-        <div className="card mx-auto">
-          <div className="card-header bg-dark text-white text-center">
-            <h3>Projects</h3>
-          </div>
-          <div className="card-body">
-            <div className="row text-center mb-5">
-              {this.state.projects.map((project) => (
-                <ProjectCard
-                  id={project.id}
-                  key={project.id}
-                  title={project.title}
-                  image={project.image}
-                  description={project.description}
-                  library={project.libraries}
-                  deployLink={project.linkToApp}
-                  githubLink={project.githubReop}
-                />
-              ))}
+      <section id="project" class="portfolio-mf sect-pt4 route">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="title-box text-center">
+                <h3 className="title-a">Portfolio</h3>
+                <p className="subtitle-a">
+                  Looking to expand my works while I'm on top and while I'm young
+                </p>
+                <div className="line-mf"></div>
+              </div>
             </div>
           </div>
+          <div className="row">
+            {this.state.projects.map((project) => (
+              <ProjectCard
+                id={project.id}
+                key={project.id}
+                title={project.title}
+                image={project.image}
+                description={project.description}
+                library={project.libraries}
+                deployLink={project.linkToApp}
+                githubLink={project.githubReop}
+              />
+            ))}
+            
+          </div>
         </div>
-      </div>
+      </section>
     );
   }
 }
