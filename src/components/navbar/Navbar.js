@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top bg-dark" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll text-light" href="#home">Michelle</a>
+      <a className="navbar-brand js-scroll text-light" href="/">Michelle</a>
       <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarButton" aria-controls="navbarButton" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
