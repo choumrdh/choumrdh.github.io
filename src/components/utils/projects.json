@@ -3,7 +3,7 @@
         "id":1,
         "title":"CalenDate",
         "image":"/assets/img/project3_CalenDate.png",
-        "description":"An application that help users to keep track of their daily life",
+        "description":"An application that help users to keep track of their daily life and keep organize on events",
         "libraries":"Build using modgoDB, mongoose, expressm react, date-fns, moment, material-ui",
         "linkToApp":"https://calendate.herokuapp.com/",
         "githubReop":"https://github.com/choumrdh/Project_3_CodeVid20"
@@ -12,7 +12,7 @@
         "id":2,
         "title":"Rotten Potatoes",
         "image":"/assets/img/project2_RottenPotatoes.jpg",
-        "description":"Full stack team project designed to search and rate movie.",         
+        "description":"Full stack team project designed to search and rate movie and average out rating.",         
         "libraries":"Build using boothstrap, jQuery, express, express-handlebars, mysql2, sequelize, passport, chart.js",
         "linkToApp":"https://rotten-potatoes-vm3.herokuapp.com/login",
         "githubReop":"https://github.com/Nmosch/P2_Valar_Morghulis_Movie_Ranker"
