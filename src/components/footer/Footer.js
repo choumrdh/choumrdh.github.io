@@ -4,11 +4,12 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer mt-auto py-1 mt-5 text-center container">
-      <div >
-        <span >
-        © Michelle Chou 2021 
-        </span>
-      </div>
+       {"Copyright © "}
+      <a href="/" className="text-dark">
+        Michelle Chou
+      </a>{" "}
+      {new Date().getFullYear()}
+      {"."}
     </footer>
   );
 }
