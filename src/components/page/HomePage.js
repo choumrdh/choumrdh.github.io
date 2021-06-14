@@ -1,15 +1,13 @@
 import React from "react";
-import Intro from "../Intro/Intro";
 import About from "../about/About";
-import Information from "../information/Information";
+import Project from "../project/Project"
 import { Container } from "react-bootstrap";
 
 function HomePage() {
   return (
     <Container>
-      <Intro />
       <About />
-      <Information />
+      <Project/>
     </Container>
   );
 }
