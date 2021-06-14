@@ -7,3 +7,44 @@
     color:red;
     padding: 10px 15px;
 }
+
+.footer-paralax {
+    padding: 4rem 0 0 0;
+  }
+  
+  .contact-mf {
+    margin-top: 4rem;
+  }
+  
+  @media (min-width: 767px) {
+    .contact-mf .box-pl2 {
+      margin-top: 3rem;
+      padding-left: 0rem;
+    }
+  }
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .socials {
+    padding: 1.5rem 0;
+    font-size: 40px;
+  }
+  
+  .socials ul li {
+    display: inline-block;
+  }

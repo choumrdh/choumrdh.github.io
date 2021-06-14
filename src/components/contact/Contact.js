@@ -50,80 +50,119 @@ class Contact extends Component {
   render() {
     const { name, email, message } = this.state;
     return (
-      <div className="card">
-        <div className="card-body">
-          <div className="card-header">
-            <div>
-              <div className="card-header text-center bg-dark text-white">
-                <h3>Contact</h3>
+      <section className="paralax-mf footer-paralax bg-image sect-mt4 route">
+        <div className="overlay-mf"></div>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="contact-mf">
+                <div id="contact" className="box-shadow-full">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="title-box-2">
+                        <h5 className="title-left">Send Message To Me</h5>
+                      </div>
+                      <div>
+                        <Form onSubmit={this.handleSubmit}>
+                          <div className="form-group">
+                            <label htmlFor="InputName">Name</label>
+                            <input
+                              name="name"
+                              type="text"
+                              id="contactNameInput"
+                              className="form-control"
+                              placeholder="James Bond"
+                              value={name}
+                              onChange={this.handleInputChange}
+                            />
+                          </div>
+                          <div className="form-group">
+                            <label htmlFor="InputEmail">Email</label>
+                            <input
+                              name="email"
+                              type="email"
+                              id="contactEmailInput"
+                              className="form-control"
+                              placeholder="example@gmail.com"
+                              value={email}
+                              onChange={this.handleInputChange}
+                            ></input>
+                          </div>
+                          <div className="form-group input-group-lg">
+                            <label htmlFor="message">Message</label>
+                            <textarea
+                              name="message"
+                              as="textarea"
+                              rows="7"
+                              className="form-control"
+                              id="contactFormMessage"
+                              value={message}
+                              onChange={this.handleInputChange}
+                            ></textarea>
+                          </div>
+                          <div>
+                            <button
+                              typ="submit"
+                              id="contactSubmit"
+                              className="btn btn-primary"
+                              defaultValue="Send"
+                            >
+                              Send
+                            </button>
+                          </div>
+                        </Form>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="title-box-2 pt-4 pt-md-0">
+                        <h5 className="title-left">Get in Touch</h5>
+                      </div>
+                      <div className="more-info">
+                        <ul className="list-ico">
+                          <li>
+                            <span className="ion-ios-telephone"></span> (480)
+                            330-5011
+                          </li>
+                          <li>
+                            <span className="ion-email"></span> m.w.chou21@gmail.com
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="socials">
+                        <ul>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/michelle-chou-ba1b2a52/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span>
+                                <i className="fab fa-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://github.com/choumrdh"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span>
+                                <i className="fab fa-github"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <ul>
-                <li>Personal Contact Information:</li>
-                <li className="list-item">
-                  <strong>Email: </strong>m.w.chou21@gmail.com
-                </li>
-                <li className="list-item">
-                  <strong>Phone: </strong>480-330-5011
-                </li>
-              </ul>
             </div>
           </div>
-          <Form onSubmit={this.handleSubmit}>
-            <div className="form-group">
-              <label htmlFor="InputName">Name</label>
-              <input
-                name="name"
-                type="text"
-                id="contactNameInput"
-                className="form-control"
-                placeholder="James Bond"
-                value={name}
-                onChange={this.handleInputChange}
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="InputEmail">Email</label>
-              <input
-                name="email"
-                type="email"
-                id="contactEmailInput"
-                className="form-control"
-                placeholder="example@gmail.com"
-                value={email}
-                onChange={this.handleInputChange}
-              ></input>
-            </div>
-            <div className="form-group input-group-lg">
-              <label htmlFor="message">Message</label>
-              <textarea
-                name="message"
-                as="textarea"
-                rows="7"
-                className="form-control"
-                id="contactFormMessage"
-                value={message}
-                onChange={this.handleInputChange}
-              ></textarea>
-            </div>
-            <div>
-              <button
-                typ="submit"
-                id="contactSubmit"
-                className="btn btn-info"
-                defaultValue="Send"
-              >
-                Send
-              </button>
-              {/* {this.state.emailSent === true && (
-                <p className="d-inline success-msg">Email Send</p>
-              )}
-              {this.state.emailSent === false && (
-                <p className="d-inline err-msg">Email Not Send</p>
-              )} */}
-            </div>
-          </Form>
         </div>
-      </div>
+      </section>
+     
     );
   }
 }
