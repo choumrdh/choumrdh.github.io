@@ -8,9 +8,11 @@ const Intro = () => {
       <div className="intro-content display-table">
         <div className="table-cell">
           <div className="container">
-            <h1 className="intro-title mb-4">I am Michelle Chou</h1>
-            <p className="intro-subtitle">
-              <span>Full-Stack Developer, Web Developer, Frontend Developer</span>
+            <h1 className="intro-title mb-4">Michelle Chou</h1>
+            <p className="intro-subtitle row">
+              <span className="col-12 col-md-4">Full-Stack Developer</span>{" "}
+              <span className="col-12 col-md-4">Front-End Developer</span>{" "}
+              <span className="col-12 col-md-4">Web Developer</span>
               <strong className="text-slider"></strong>
             </p>
           </div>

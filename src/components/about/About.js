@@ -4,7 +4,7 @@ import "./About.css";
 
 function About() {
   return (
-    <section id="about" class="about-mf sect-pt4 route">
+    <section id="about" className="about-mf sect-pt4 route">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
@@ -49,7 +49,9 @@ function About() {
                     <p className="title-s">Skill</p>
                     <div>
                       <span>Languages:</span>{" "}
-                      <span className="pull-right">JavaScript, HTML, CSS, SQL</span>
+                      <span className="pull-right">
+                        JavaScript, HTML, CSS, SQL
+                      </span>
                     </div>
                     <br />
                     <div>
@@ -62,9 +64,9 @@ function About() {
                     <div>
                       <span>Libraries:</span>{" "}
                       <span className="pull-right">
-                        Bootstrap, UI Kit, Material-Ui, jQuery, Moment.js,
-                        Node.js, Express.js, Sequelize, Mongoose, Handlebars.js,
-                        React.js
+                        React.js, Bootstrap, UI Kit, Material-Ui, jQuery, Moment.js,
+                        Node.js, Express.js, Sequelize, Mongoose, Handlebars.js
+                        
                       </span>
                     </div>
                   </div>
@@ -85,33 +87,36 @@ function About() {
                       allows me to express my critical thinking abilities and
                       work flexibility.
                     </p>
-                    <p>
-                      <div className="social-icon">
-                        <a
-                          href="https://www.linkedin.com/in/michelle-chou-ba1b2a52/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <span>
-                            <i className="fab fa-linkedin"></i>
-                          </span>
-                        </a>
-                        <a
-                          href="https://github.com/choumrdh"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <span>
-                            <i className="fab fa-github"></i>
-                          </span>
-                        </a>
-                        <a href={Resume} target="_blank" rel="noopener noreferrer">
-                          <span>
-                            <i className="fas fa-file-alt"></i>
-                          </span>
-                        </a>
-                      </div>
-                    </p>
+
+                    <div className="social-icon">
+                      <a
+                        href="https://www.linkedin.com/in/michelle-chou-ba1b2a52/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span>
+                          <i className="fab fa-linkedin"></i>
+                        </span>
+                      </a>
+                      <a
+                        href="https://github.com/choumrdh"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span>
+                          <i className="fab fa-github"></i>
+                        </span>
+                      </a>
+                      <a
+                        href={Resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span>
+                          <i className="fas fa-file-alt"></i>
+                        </span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

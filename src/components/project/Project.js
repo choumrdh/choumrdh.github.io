@@ -8,7 +8,7 @@ class Projects extends Component {
   };
   render() {
     return (
-      <section id="project" class="portfolio-mf sect-pt4 route">
+      <section id="project" className="portfolio-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
