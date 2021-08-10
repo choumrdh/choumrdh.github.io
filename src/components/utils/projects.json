@@ -3,8 +3,8 @@
         "id":1,
         "title":"CalenDate",
         "image":"/assets/img/project3_CalenDate.png",
-        "description":"An application that help users to keep track of their daily life and keep organize on events",
-        "libraries":"Build using modgoDB, mongoose, expressm react, date-fns, moment, material-ui",
+        "description":"An application that help users to keep track of their daily life and organize on events",
+        "libraries":"MongoDB, Mongoose, Express, React, date-fns, moment, material-ui",
         "linkToApp":"https://calendate.herokuapp.com/",
         "githubReop":"https://github.com/choumrdh/Project_3_CodeVid20"
     },
@@ -13,7 +13,7 @@
         "title":"Rotten Potatoes",
         "image":"/assets/img/project2_RottenPotatoes.jpg",
         "description":"Full stack team project designed to search and rate movie and average out rating.",         
-        "libraries":"Build using boothstrap, jQuery, express, express-handlebars, mysql2, sequelize, passport, chart.js",
+        "libraries":"Bootstrap, jQuery, Express, express-handlebars, mysql2, sequelize, passport, chart.js",
         "linkToApp":"https://rotten-potatoes-vm3.herokuapp.com/login",
         "githubReop":"https://github.com/Nmosch/P2_Valar_Morghulis_Movie_Ranker"
     },
@@ -22,7 +22,7 @@
         "title":"DineInOrDineOut",
         "image":"/assets/img/project1_DineInOrDineOut.jpg",
         "description":"Team project designed to make searching for new recipes or new restaurant nearby.",         
-        "libraries":"Build using jQuery, Moment.js, Animare on Scroll, UIKit",
+        "libraries":"jQuery, Moment.js, Animare on Scroll, UIKit",
         "linkToApp":"https://denzgrant.github.io/SnapesOnAPlane/",
         "githubReop":"https://github.com/denzgrant/SnapesOnAPlane"
     },
@@ -31,7 +31,7 @@
         "title":"Google Book Search",
         "image":"/assets/img/homework_GoogleBookSearch.png",
         "description":"A React-based Google Books Searchapp. Using React to create components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. ",
-        "libraries":"Build using express, node, boostrap, mongoose and MongoDB",
+        "libraries":"Express, Node.js, Bootstrap, Mongoose and MongoDB",
         "linkToApp":"https://mern-googlebooksearch.herokuapp.com/",
         "githubReop":"https://github.com/choumrdh/21_MERN_GoogleBookSearch"
     },
@@ -40,7 +40,7 @@
         "title":"Eat-Da-Burger",
         "image":"/assets/img/homework_Eat_da_burger.jpg",
         "description":"A burger logger. A restaurant app that allow user to submit a burger's name and it will display on the left side of page, after a burger has been devoured the burger will move to the right side of the page.",
-        "libraries":"Build using express, express-handlebars, mysql",
+        "libraries":"Express, express-handlebars, mysql",
         "linkToApp":"https://mvc-13-eat-da-burger.herokuapp.com/",
         "githubReop":"https://github.com/choumrdh/13_MVC_Eat_Da_Burger"
     },
@@ -49,7 +49,7 @@
         "title":"Budget Trackers",
         "image":"/assets/img/homework_BudgetTracker.png",
         "description":"The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
-        "libraries":"Build using express, mongoose, morgan, compression, lite-server",
+        "libraries":"Express, Mongoose, morgan, compression, lite-server",
         "linkToApp":"https://pwa-18-budgettracker.herokuapp.com/",
         "githubReop":"https://github.com/choumrdh/18_PWA_BudgetTrackers"
     }

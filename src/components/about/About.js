@@ -55,9 +55,9 @@ function About() {
                     </div>
                     <br />
                     <div>
-                      <span>Applications</span>{" "}
+                      <span>Applications:</span>{" "}
                       <span className="pull-right">
-                        Visual Studio Code, Git, MongoDB, MySQL, PostMan
+                        Visual Studio Code, Git, MongoDB, MySQL, Postman
                       </span>
                     </div>
                     <br />
